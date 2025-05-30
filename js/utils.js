@@ -52,19 +52,19 @@ const projectsData = [
 
 const teamMembersData = [
     {
-        image: "img/team-1.jpg",
+        image: "../img/team-1.jpg",
         name: "Alee Raza",
         title: "CEO & Lead Cross Platform Developer",
         description: "A visionary leader with expertise in cross-platform development and a passion for innovation."
     },
     {
-        image: "img/team-2.jpg",
+        image: "../img/team-2.jpg",
         name: "Ihsan Ali",
-        title: "Lead Full Stack Website Developer",
+        title: "Lead Full Stack Website Developer (MERN Stack)",
         description: "A skilled full-stack developer dedicated to creating robust and user-friendly web applications."
     },
     {
-        image: "img/team-3.jpg",
+        image: "../img/team-3.jpg",
         name: "Raza Hussain Bhayo",
         title: "Digital Marketing Expert & Graphics Designer",
         description: "A creative digital marketing expert and graphics designer focused on driving brand growth and engagement."
