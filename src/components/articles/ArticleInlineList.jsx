@@ -43,16 +43,17 @@ function ArticleInlineListItems({ dataWrapper, selectedItemCategoryId}) {
     })
 
     const filteredItems = dataWrapper.getOrderedItemsFilteredBy(selectedItemCategoryId)
-    const slicedItems = filteredItems.slice(0, maxItems)
-
     const displayAsList = viewport.innerWidth < dataWrapper.settings.displayAsListIfWidthIsLowerThan
     const listClass = displayAsList ?
         `article-inline-list-items-column-mode` :
         ``
 
+    // On mobile (column mode), show all items. Only slice in row mode.
+    const itemsToShow = displayAsList ? filteredItems : filteredItems.slice(0, maxItems)
+
     return (
         <ul className={`article-inline-list-items ${listClass}`}>
-            {slicedItems.map((itemWrapper, key) => (
+            {itemsToShow.map((itemWrapper, key) => (
                 <ArticleInlineListItem itemWrapper={itemWrapper}
                                        key={key}/>
             ))}
