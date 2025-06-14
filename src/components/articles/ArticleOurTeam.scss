@@ -1,0 +1,21 @@
+.article-our-team {
+    padding: 4rem 0;
+    background-color: var(--bg-primary);
+
+    .article-title {
+        text-align: center;
+        margin-bottom: 3rem;
+        color: var(--text-primary);
+        font-size: 2.5rem;
+        font-weight: 600;
+    }
+
+    .team-grid {
+        margin: 0 -15px;
+    }
+
+    .team-col {
+        padding: 0 15px;
+        margin-bottom: 30px;
+    }
+} 

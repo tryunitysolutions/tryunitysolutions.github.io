@@ -1,0 +1,156 @@
+{
+    "title": {
+        "locales": {
+            "en": {
+                "title_short": "Experience",
+                "title_short_nav": "Experience",
+                "title_long_prefix": "Summary of my",
+                "title_long": "{{Work}} Experience"
+            },
+            "ur": {
+                "title_short": "تجربہ",
+                "title_short_nav": "تجربہ",
+                "title_long_prefix": "میرے",
+                "title_long": "{{کام}} کے تجربے کا خلاصہ"
+            }
+        }
+    },
+
+    "articles": [
+        {
+            "id": 1,
+            "component": "ArticleTimeline",
+            "locales": {},
+            "settings": {
+                "order_items_by": "id",
+                "order_items_sort": "dateStart"
+            },
+            "items": [
+                {
+                    "id": 1,
+                    "img": "images/pictures/timeline-place-sapphire-studio.png",
+                    "faIcon": "",
+                    "faIconColors": {"bg": "", "fill": ""},
+                    "dateStart": {"year": 2016, "month": 3},
+                    "dateEnd": {"year": 2018, "month": 6},
+                    "locales": {
+                        "en": {
+                            "title": "{{Backend}} Developer",
+                            "province": "Toronto",
+                            "country": "Canada",
+                            "institution": "Sapphire Studio",
+                            "text": "Developed and maintained [[scalable backend systems]] for various clients, optimizing database performance and implementing RESTful APIs to improve application functionality.",
+                            "list": [],
+                            "tags": ["PHP8.0", "MySQL", "Laravel"]
+                        },
+                        "ur": {
+                            "title": "{{بیک اینڈ}} ڈویلپر",
+                            "province": "ٹورنٹو",
+                            "country": "کینیڈا",
+                            "institution": "سیفائر اسٹوڈیو",
+                            "text": "مختلف کلائنٹس کے لیے [[قابل توسیع بیک اینڈ سسٹمز]] کو تیار اور برقرار رکھا، ڈیٹا بیس کی کارکردگی کو بہتر بنایا اور ایپلیکیشن کی فعالیت کو بہتر بنانے کے لیے RESTful APIs کو نافذ کیا۔",
+                            "list": [],
+                            "tags": ["PHP8.0", "MySQL", "Laravel"]
+                        }
+                    }
+                },
+                {
+                    "id": 2,
+                    "img": "images/pictures/timeline-place-coursera.png",
+                    "faIcon": "",
+                    "faIconColors": {"bg": "", "fill": ""},
+                    "dateStart": {"year": 2018, "month": 6},
+                    "dateEnd": {"year": 2020, "month": 12},
+                    "locales": {
+                        "en": {
+                            "title": "{{Full-Stack}} Engineer",
+                            "province": "",
+                            "country": "Remote",
+                            "institution": "Coursera",
+                            "text": "Worked on enhancing the Coursera website by implementing new features and improving user experience, utilizing both frontend and backend technologies to ensure seamless functionality.",
+                            "list": [],
+                            "tags": ["Svelte", "NodeJS", "Laravel", "REST APIs", "Docker"]
+                        },
+                        "ur": {
+                            "title": "{{فل سٹیک}} انجینئر",
+                            "province": "",
+                            "country": "ریموٹ",
+                            "institution": "کورسیرا",
+                            "text": "کورسیرا کی ویب سائٹ کو بہتر بنانے کے لیے نئی خصوصیات کو نافذ کرنے اور صارف کے تجربے کو بہتر بنانے پر کام کیا، بہتر فعالیت کو یقینی بنانے کے لیے فرنٹ اینڈ اور بیک اینڈ ٹیکنالوجیز کا استعمال کیا۔",
+                            "list": [],
+                            "tags": ["Svelte", "NodeJS", "Laravel", "REST APIs", "Docker"]
+                        }
+                    }
+                },
+                {
+                    "id": 3,
+                    "img": "images/pictures/timeline-place-adobe.png",
+                    "faIcon": "",
+                    "faIconColors": {"bg": "", "fill": ""},
+                    "dateStart": {"year": 2020, "month": 12},
+                    "dateEnd": {"year": 2022, "month": 11},
+                    "locales": {
+                        "en": {
+                            "title": "{{Backend}} Engineer",
+                            "province": "New York",
+                            "country": "US",
+                            "institution": "Adobe Inc",
+                            "text": "Contributed to the development of robust backend systems for Adobe Creative Cloud, integrating third-party services and improving data processing efficiency through cloud functions.",
+                            "list": [],
+                            "tags": ["JavaScript", "Flutter", "MongoDB", "CodeIgniter", "Kubernetes"]
+                        },
+                        "ur": {
+                            "title": "{{بیک اینڈ}} انجینئر",
+                            "province": "نیویارک",
+                            "country": "امریکہ",
+                            "institution": "ایڈوب انکارپوریشن",
+                            "text": "ایڈوب کریئیٹیو کلاؤڈ کے لیے مضبوط بیک اینڈ سسٹمز کی ترقی میں حصہ لیا، تھرڈ پارٹی سروسز کو مربوط کیا اور کلاؤڈ فنکشنز کے ذریعے ڈیٹا پروسیسنگ کی کارکردگی کو بہتر بنایا۔",
+                            "list": [],
+                            "tags": ["JavaScript", "Flutter", "MongoDB", "CodeIgniter", "Kubernetes"]
+                        }
+                    }
+                },
+                {
+                    "id": 4,
+                    "img": "",
+                    "faIcon": "fa-brands fa-apple",
+                    "faIconColors": {"bg": "#111", "fill": "#EEE"},
+                    "dateStart": {"year": 2022, "month": 12},
+                    "dateEnd": {"now": true},
+                    "locales": {
+                        "en": {
+                            "title": "{{Senior Backend}} Developer",
+                            "province": "California",
+                            "country": "US",
+                            "institution": "Apple Inc",
+                            "text": "Leading a team of developers to design and implement backend solutions for Apple's services, with a focus on:",
+                            "list": [
+                                "Security",
+                                "Scalability to handle millions of users globally",
+                                "Developing RESTful APIs",
+                                "Optimizing database performance with PostgreSQL",
+                                "Building services with Swift, PHP, and GraphQL"
+                            ],
+                            "tags": ["JavaScript", "React", "NodeJS", "PHP", "REST APIs", "Docker"]
+                        },
+                        "ur": {
+                            "title": "{{سینئر بیک اینڈ}} ڈویلپر",
+                            "province": "کیلیفورنیا",
+                            "country": "امریکہ",
+                            "institution": "ایپل انکارپوریشن",
+                            "text": "ایپل کی سروسز کے لیے بیک اینڈ حلز کو ڈیزائن اور نافذ کرنے کے لیے ڈویلپرز کی ٹیم کی قیادت کر رہا ہوں، جس میں توجہ مرکوز ہے:",
+                            "list": [
+                                "سیکیورٹی",
+                                "دنیا بھر میں لاکھوں صارفین کو سنبھالنے کی صلاحیت",
+                                "RESTful APIs کی ترقی",
+                                "PostgreSQL کے ساتھ ڈیٹا بیس کی کارکردگی کو بہتر بنانا",
+                                "Swift، PHP، اور GraphQL کے ساتھ سروسز بنانا"
+                            ],
+                            "tags": ["JavaScript", "React", "NodeJS", "PHP", "REST APIs", "Docker"]
+                        }
+                    }
+                }
+            ]
+        }
+    ]
+}

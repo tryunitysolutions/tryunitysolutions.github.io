@@ -1,0 +1,38 @@
+{
+    "name": "Try Unity Solutions",
+
+    "profilePictureUrlLight": "images/pictures/profile-picture.jpg",
+    "profilePictureUrlDark": "images/pictures/white-profile-picture.jpg",
+    "resumePdfUrl": "",
+
+    "statusCircleVisible": true,
+    "statusCircleVariant": "available",
+    "statusCircleHoverMessage": "status_message_available_for_freelance",
+
+    "locales": {
+        "en": {
+            "localized_name": "Try Unity Solutions",
+            "localized_name_stylized": " [[Try {{Unity}} Solutions]]",
+            "status_message_available_for_freelance": "Available for new projects!",
+            "roles": [
+                "Website Design",
+                "Website Development",
+                "UI/UX Design",
+                "Desktop Applications",
+                "Mobile Apps"
+            ]
+        },
+        "ur": {
+            "localized_name": "ٹرائی یونٹی سولوشنز",
+            "localized_name_stylized": " [[ٹرائی {{یونٹی}} سولوشنز]]",
+            "status_message_available_for_freelance": "نئے پروجیکٹس کے لیے دستیاب!",
+            "roles": [
+                "ویب سائٹ ڈیزائن",
+                "ویب سائٹ ڈویلپمنٹ",
+                "UI/UX ڈیزائن",
+                "ڈیسک ٹاپ ایپلیکیشنز",
+                "موبائل ایپس"
+            ]
+        }
+    }
+}

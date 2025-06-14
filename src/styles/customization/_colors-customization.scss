@@ -1,0 +1,188 @@
+/**
+ * @description This file contains the brand color system and related styles.
+ */
+
+// Brand Colors with RGB values for rgba() usage
+$color-sky-blue: #3ECFFF;
+$color-sky-blue-rgb: 62, 207, 255;
+$color-light-cyan: #69D2FF;
+$color-light-cyan-rgb: 105, 210, 255;
+$color-deep-sky: #00AEEF;
+$color-deep-sky-rgb: 0, 174, 239;
+$color-indigo: #3F51B5;
+$color-indigo-rgb: 63, 81, 181;
+$color-royal: #1E88E5;
+$color-royal-rgb: 30, 136, 229;
+
+// Color Functions
+@function lighten-color($color, $percentage) {
+    @return lighten($color, $percentage);
+}
+
+@function darken-color($color, $percentage) {
+    @return darken($color, $percentage);
+}
+
+// Color Map for easy access
+$brand-colors: (
+    'sky-blue': $color-sky-blue,
+    'light-cyan': $color-light-cyan,
+    'deep-sky': $color-deep-sky,
+    'indigo': $color-indigo,
+    'royal': $color-royal
+);
+
+// CSS Custom Properties (CSS Variables)
+:root {
+    // Base colors
+    --color-sky-blue: #{$color-sky-blue};
+    --color-light-cyan: #{$color-light-cyan};
+    --color-deep-sky: #{$color-deep-sky};
+    --color-indigo: #{$color-indigo};
+    --color-royal: #{$color-royal};
+    
+    // RGB values for rgba() usage
+    --color-sky-blue-rgb: #{$color-sky-blue-rgb};
+    --color-light-cyan-rgb: #{$color-light-cyan-rgb};
+    --color-deep-sky-rgb: #{$color-deep-sky-rgb};
+    --color-indigo-rgb: #{$color-indigo-rgb};
+    --color-royal-rgb: #{$color-royal-rgb};
+}
+
+// Utility Classes
+.text-brand {
+    &-sky-blue { color: var(--color-sky-blue); }
+    &-light-cyan { color: var(--color-light-cyan); }
+    &-deep-sky { color: var(--color-deep-sky); }
+    &-indigo { color: var(--color-indigo); }
+    &-royal { color: var(--color-royal); }
+}
+
+.bg-brand {
+    &-sky-blue { background-color: var(--color-sky-blue); }
+    &-light-cyan { background-color: var(--color-light-cyan); }
+    &-deep-sky { background-color: var(--color-deep-sky); }
+    &-indigo { background-color: var(--color-indigo); }
+    &-royal { background-color: var(--color-royal); }
+}
+
+.border-brand {
+    &-sky-blue { border-color: var(--color-sky-blue); }
+    &-light-cyan { border-color: var(--color-light-cyan); }
+    &-deep-sky { border-color: var(--color-deep-sky); }
+    &-indigo { border-color: var(--color-indigo); }
+    &-royal { border-color: var(--color-royal); }
+}
+
+// Button Styles
+.btn-brand {
+    // Sky Blue - Buttons, highlights
+    &-sky-blue {
+        background-color: var(--color-sky-blue);
+        color: white;
+        border: none;
+        padding: 0.75rem 1.5rem;
+        border-radius: 4px;
+        transition: all 0.3s ease;
+        
+        &:hover {
+            background-color: lighten-color($color-sky-blue, 10%);
+            transform: translateY(-2px);
+            box-shadow: 0 4px 8px rgba(62, 207, 255, 0.2);
+        }
+        
+        &:active {
+            background-color: darken-color($color-sky-blue, 5%);
+            transform: translateY(0);
+        }
+    }
+    
+    // Royal Blue - CTA buttons
+    &-royal {
+        background-color: var(--color-royal);
+        color: white;
+        border: none;
+        padding: 0.75rem 1.5rem;
+        border-radius: 4px;
+        transition: all 0.3s ease;
+        
+        &:hover {
+            background-color: lighten-color($color-royal, 10%);
+            transform: translateY(-2px);
+            box-shadow: 0 4px 8px rgba(30, 136, 229, 0.2);
+        }
+        
+        &:active {
+            background-color: darken-color($color-royal, 5%);
+            transform: translateY(0);
+        }
+    }
+}
+
+// Header Styles
+.header-brand {
+    // Light Cyan Blue - Background gradient
+    background: linear-gradient(135deg, var(--color-light-cyan), var(--color-royal));
+    color: var(--color-indigo); // Indigo Blue - Main text
+    padding: 1rem 2rem;
+    box-shadow: 0 2px 4px rgba(63, 81, 181, 0.1);
+    
+    &__title {
+        font-size: 2rem;
+        font-weight: bold;
+        margin: 0;
+        color: var(--color-indigo); // Indigo Blue - Main text
+        
+        &:hover {
+            color: var(--color-deep-sky); // Deep Sky Blue - Hover states
+            transition: color 0.3s ease;
+        }
+    }
+    
+    &__nav {
+        a {
+            color: var(--color-indigo); // Indigo Blue - Main text
+            text-decoration: none;
+            margin: 0 1rem;
+            padding: 0.5rem;
+            border-radius: 4px;
+            transition: all 0.3s ease;
+            
+            &:hover {
+                background-color: rgba(0, 174, 239, 0.1); // Deep Sky Blue - Hover states
+                color: var(--color-deep-sky);
+            }
+            
+            &.active {
+                background-color: rgba(0, 174, 239, 0.2);
+                color: var(--color-deep-sky);
+            }
+        }
+    }
+}
+
+// Card Styles
+.card-brand {
+    border: 2px solid var(--color-indigo); // Indigo Blue - Logo border
+    border-radius: 8px;
+    padding: 1.5rem;
+    transition: all 0.3s ease;
+    
+    &:hover {
+        border-color: var(--color-deep-sky); // Deep Sky Blue - Hover states
+        box-shadow: 0 4px 12px rgba(0, 174, 239, 0.15);
+    }
+    
+    &__title {
+        color: var(--color-indigo); // Indigo Blue - Main text
+        margin-bottom: 1rem;
+    }
+    
+    &__content {
+        color: var(--color-indigo); // Indigo Blue - Main text
+    }
+    
+    &__highlight {
+        color: var(--color-sky-blue); // Sky Blue - Highlights
+    }
+} 

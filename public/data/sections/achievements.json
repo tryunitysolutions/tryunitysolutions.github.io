@@ -1,0 +1,216 @@
+{
+    "title": {
+        "locales": {
+            "en": {
+                "title_short": "Awards",
+                "title_short_nav": "Achievements",
+                "title_long_prefix": "Here are my",
+                "title_long": "Career {{Achievements}}"
+            },
+            "ur": {
+                "title_short": "ایوارڈز",
+                "title_short_nav": "کامیابیاں",
+                "title_long_prefix": "یہ ہیں میری",
+                "title_long": "پیشہ ورانہ {{کامیابیاں}}"
+            }
+        }
+    },
+
+    "articles": [
+        {
+            "id": 1,
+            "component": "ArticleCards",
+            "locales": {
+                "en": { "title": "Certifications" },
+                "ur": { "title": "سرٹیفیکیشنز" }
+            },
+            "settings": {
+                "order_items_by": "id",
+                "order_items_sort": "desc"
+            },
+            "items": [
+                {
+                    "id": 1,
+                    "img": "",
+                    "faIcon": "fa-solid fa-life-ring",
+                    "faIconColors": {"bg": "#326CE5", "fill": "#EEE"},
+                    "date": {"year": 2020, "month": 12},
+                    "link": {"href": "https://www.linuxfoundation.org/", "tooltipString": "see_certification"},
+                    "locales": {
+                        "en": {
+                            "title": "The {{Linux Foundation}}",
+                            "text": "Certified Kubernetes Administrator (CKA)"
+                        },
+                        "ur": {
+                            "title": "{{لینکس فاؤنڈیشن}}",
+                            "text": "سرٹیفائیڈ کیوبرنیٹس ایڈمنسٹریٹر (CKA)"
+                        }
+                    }
+                },
+                {
+                    "id": 2,
+                    "img": "",
+                    "faIcon": "fa-brands fa-aws",
+                    "faIconColors": {"bg": "#FFD700", "fill": "#111"},
+                    "date": {"year": 2021, "month": 5},
+                    "link": {"href": "https://www.aws.com/", "tooltipString": "see_certification"},
+                    "locales": {
+                        "en": {
+                            "title": "{{Amazon}} Web Services",
+                            "text": "AWS Certified Solutions Architect – Associate"
+                        },
+                        "ur": {
+                            "title": "{{ایمیزون}} ویب سروسز",
+                            "text": "AWS سرٹیفائیڈ سولوشنز آرکیٹیکٹ – ایسوسیئیٹ"
+                        }
+                    }
+                },
+                {
+                    "id": 3,
+                    "img": "",
+                    "faIcon": "fa-brands fa-java",
+                    "faIconColors": {"bg": "#007396", "fill": "#EEE"},
+                    "date": {"year": 2022, "month": 5},
+                    "link": {"href": "https://www.oracle.com/", "tooltipString": "see_certification"},
+                    "locales": {
+                        "en": {
+                            "title": "{{Oracle}}",
+                            "text": "Certified Java Developer"
+                        },
+                        "ur": {
+                            "title": "{{اوریکل}}",
+                            "text": "سرٹیفائیڈ جاوا ڈویلپر"
+                        }
+                    }
+                },
+                {
+                    "id": 4,
+                    "img": "",
+                    "faIcon": "fa-solid fa-database",
+                    "faIconColors": {"bg": "#47A248", "fill": "#EEE"},
+                    "date": {"year": 2023, "month": 8},
+                    "link": {"href": "https://www.mongodb.com/", "tooltipString": "see_certification"},
+                    "locales": {
+                        "en": {
+                            "title": "{{MongoDB}} University",
+                            "text": "MongoDB Certified Developer"
+                        },
+                        "ur": {
+                            "title": "{{منگو ڈی بی}} یونیورسٹی",
+                            "text": "منگو ڈی بی سرٹیفائیڈ ڈویلپر"
+                        }
+                    }
+                }
+            ]
+        },
+        {
+            "id": 2,
+            "component": "ArticleThread",
+            "locales": {
+                "en": { "title": "Awards" },
+                "ur": { "title": "ایوارڈز" }
+            },
+            "settings": {
+                "max_rows_collapse_threshold": 4,
+                "order_items_by": "date",
+                "order_items_sort": "desc"
+            },
+            "items": [
+                {
+                    "id": 1,
+                    "date": {"year": 2019, "month": 9},
+                    "preview": {
+                        "links": [
+                            {"href": "https://mag.wcoomd.org/uploads/2018/05/blank.pdf", "tooltipString": "read", "faIcon": "fa-solid fa-file-pdf"}
+                        ],
+                        "screenshots": [],
+                        "screenshotsAspectRatio": "",
+                        "youtubeVideo": ""
+                    },
+                    "locales": {
+                        "en": {
+                            "title": "{{Best Graduation Project}} – Backend Optimization",
+                            "province": "Massachusetts",
+                            "country": "US",
+                            "institution": "MIT",
+                            "text": "Awarded for outstanding performance in optimizing backend systems during my final year project where I improved the efficiency of data processing by 30%. I have also received a certificate of recognition for this achievement."
+                        },
+                        "ur": {
+                            "title": "{{بہترین گریجویشن پروجیکٹ}} – بیک اینڈ آپٹیمائزیشن",
+                            "province": "میساچوسٹس",
+                            "country": "امریکہ",
+                            "institution": "ایم آئی ٹی",
+                            "text": "میرے آخری سال کے پروجیکٹ میں بیک اینڈ سسٹمز کی آپٹیمائزیشن میں شاندار کارکردگی کے لیے ایوارڈ دیا گیا جہاں میں نے ڈیٹا پروسیسنگ کی کارکردگی میں 30% بہتری لائی۔ اس کامیابی کے لیے مجھے ایک تسلیم نامہ بھی ملا ہے۔"
+                        }
+                    }
+                },
+                {
+                    "id": 2,
+                    "date": {"year": 2020, "month": 3},
+                    "preview": {
+                        "links": [
+                            {"href": "https://github.com", "tooltipString": "see_on_github", "faIcon": "fa-brands fa-github"}
+                        ],
+                        "screenshots": [],
+                        "screenshotsAspectRatio": "",
+                        "youtubeVideo": ""
+                    },
+                    "locales": {
+                        "en": {
+                            "title": "{{Top Contributor}} – Linux Foundation Project",
+                            "province": "",
+                            "country": "",
+                            "institution": "Linux Foundation",
+                            "text": "Recognized as a top contributor for my significant contributions to an open source project under the Linux Foundation, where I implemented key features and resolved critical bugs, improving the project's stability and performance. My contributions included: ",
+                            "list": [
+                                "Implementation of a new feature that improved user experience by 25%",
+                                "Resolution of over 50 critical bugs that improved system reliability",
+                                "Contribution to documentation and community support"
+                            ]
+                        },
+                        "ur": {
+                            "title": "{{بہترین کنٹریبیٹور}} – لینکس فاؤنڈیشن پروجیکٹ",
+                            "province": "",
+                            "country": "",
+                            "institution": "لینکس فاؤنڈیشن",
+                            "text": "میرے بہترین کنٹریبیٹور بندرونی لینکس فاؤنڈیشن پروجیکٹ میں میرے بہترین کارکردگی کے لیے ایوارڈ دیا گیا جہاں میں نے کلیمنٹس اور کریٹک بگز کی آپٹیمائزیشن کرنا ہے جو پروجیکٹ کی استقراری کو بہتر بناتا ہے اور اس کی صلاحیت بہتر بناتا ہے۔ میرے کارکردگی کے عناصر شامل تھے: ",
+                            "list": [
+                                "نیا خصوصیت آپٹیمائز کرنا جو یوزر ایکسپیرنس کو 25% بہتر بناتا ہے",
+                                "سسٹم کی صلاحیت کو بہتر بنانے کے لیے جو 50 سے زیادہ کریٹک بگز آپٹیمائز کرنا",
+                                "مندرجہ بندی اور خلاقیت کی حمایت کرنا"
+                            ]
+                        }
+                    }
+                },
+                {
+                    "id": 3,
+                    "date": {"year": 2021, "month": 6},
+                    "preview": {
+                        "links": [
+                            {"href": "https://ieee.org", "tooltipString": "read", "faIcon": "fa-solid fa-file-pdf"}
+                        ],
+                        "screenshots": [],
+                        "screenshotsAspectRatio": "",
+                        "youtubeVideo": ""
+                    },
+                    "locales": {
+                        "en": {
+                            "title": "{{Best Paper}} – International Summit",
+                            "province": "Beijing",
+                            "country": "China",
+                            "institution": "IEEE",
+                            "text": "Awarded for my research paper on software optimization techniques, which was presented at the International Conference on Software Engineering. The paper received positive feedback from industry experts and was published in the conference proceedings."
+                        },
+                        "ur": {
+                            "title": "{{بہترین پیپر}} – بینک اینٹرنشنل سمیٹ",
+                            "province": "بیجنگ",
+                            "country": "چین",
+                            "institution": "IEEE",
+                            "text": "سافٹ ویئر آپٹیمائزیشن تکنیکوں پر میرے تحقیقی مقالے کے لیے ایوارڈ دیا گیا، جو انٹرنیشنل کانفرنس آن سافٹ ویئر انجینئرنگ میں پیش کیا گیا۔ مقالے کو صنعت کے ماہرین سے مثبت ردعمل ملا اور کانفرنس کی کارروائیوں میں شائع کیا گیا۔"
+                        }
+                    }
+                }
+            ]
+        }
+    ]
+}

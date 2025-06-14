@@ -1,0 +1,13 @@
+{
+    "id": "about",
+    "title": "About Us",
+    "description": "Learn more about our company and team",
+    "articles": [
+        {
+            "id": "about-company",
+            "component": "ArticleAboutCompany",
+            "title": "Our Company",
+            "description": "We are a team of passionate developers and digital marketers dedicated to creating innovative solutions."
+        }
+    ]
+} 

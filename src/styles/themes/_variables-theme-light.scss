@@ -1,0 +1,84 @@
+/**
+ * @author Ryan Balieiro
+ * @description Light theme colors.
+ */
+
+@import "theme-variables-builder";
+
+// Brand Colors
+$color-sky-blue: #3ECFFF;
+$color-light-cyan: #69D2FF;
+$color-deep-sky: #00AEEF;
+$color-indigo: #3F51B5;
+$color-royal: #1E88E5;
+
+$primary: $color-deep-sky;
+$secondary: $color-indigo;
+$dark: #bfe0c5;
+$danger: #932626;
+$muted: #7c8d7f;
+
+$base-bg: #f8f9fa;
+$base-bg-light: #ffffff;
+$base-bg-dark: #e9ecef;
+
+$texts: #202521;
+$texts-inverted: #EEE;
+
+$base-container-bg: #ffffff;
+$base-container-bg-accent: #f8f9fa;
+$base-popover-bg: #ffffff;
+$base-boards: #f8f9fa;
+$base-info-badges: #e9ecef;
+$empty: #f8f9fa;
+
+$borders: #dee2e6;
+$scrollbar-track: #f8f9fa;
+$scrollbar-thumb: #adb5bd;
+
+[data-theme="light"] {
+    @include build-theme(
+        // Theme Config...
+        /** DARK MODE: **/                  false,
+
+        // Base Colors...
+        /** PRIMARY: **/                    $primary,
+        /** SECONDARY: **/                  $secondary,
+        /** DARK: **/                       $dark,
+        /** DANGER: **/                     $danger,
+        /** MUTED: **/                      $muted,
+
+        // Main Layout Colors...
+        /** BG: **/                         $base-bg,
+        /** BG CONTRAST: **/                $base-bg-light,
+        /** BG CONTRAST DARKEN:**/          $base-bg-dark,
+        /** TEXTS: **/                      $texts,
+        /** TEXTS (INVERTED): **/           $texts-inverted,
+
+        // Nav
+        /** NAV MOBILE BG: **/              $base-container-bg-accent,
+        /** NAV MOBILE: **/                 $texts,
+        /** NAV MOBILE BORDER: **/          rgba(white, 0.2),
+
+        /** NAV MOBILE HOVER BG: **/        $base-container-bg-accent,
+        /** NAV MOBILE HOVER: **/           $primary,
+
+        /** NAV MOBILE SELECTED BG: **/     $primary,
+        /** NAV MOBILE SELECTED: **/        $texts-inverted,
+        /** NAV MOBILE SELECTED BORDER: **/ rgba(white, 0.15),
+
+        // Main Layout Elements...
+        /** SECTION BG: **/                 $base-container-bg,
+        /** CARD BG: **/                    $base-container-bg,
+        /** POPUPS BG: **/                  $base-popover-bg,
+        /** BOARDS: **/                     $base-boards,
+        /** INFO BADGE BG: **/              $base-info-badges,
+        /** INFO BADGE **/                  $texts,
+        /** EMPTY **/                       $empty,
+
+        // Other Colors...
+        /** DEFAULT BORDERS: **/            $borders,
+        /** SCROLLBAR TRACK: **/            $scrollbar-track,
+        /** SCROLLBAR THUMB: **/            $scrollbar-thumb,
+    );
+}

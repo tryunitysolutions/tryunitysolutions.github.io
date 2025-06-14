@@ -1,0 +1,107 @@
+// Brand Colors
+$color-sky-blue: #3ECFFF;
+$color-light-cyan: #69D2FF;
+$color-deep-sky: #00AEEF;
+$color-indigo: #3F51B5;
+$color-royal: #1E88E5;
+
+// Color Functions
+@function lighten-color($color, $percentage) {
+    @return lighten($color, $percentage);
+}
+
+@function darken-color($color, $percentage) {
+    @return darken($color, $percentage);
+}
+
+// Color Map for easy access
+$brand-colors: (
+    'sky-blue': $color-sky-blue,
+    'light-cyan': $color-light-cyan,
+    'deep-sky': $color-deep-sky,
+    'indigo': $color-indigo,
+    'royal': $color-royal
+);
+
+// Example button styles
+.btn-brand {
+    &-primary {
+        background-color: $color-deep-sky;
+        color: white;
+        border: none;
+        padding: 0.75rem 1.5rem;
+        border-radius: 4px;
+        transition: all 0.3s ease;
+        
+        &:hover {
+            background-color: lighten-color($color-deep-sky, 10%);
+            transform: translateY(-2px);
+            box-shadow: 0 4px 8px rgba($color-deep-sky, 0.2);
+        }
+        
+        &:active {
+            background-color: darken-color($color-deep-sky, 5%);
+            transform: translateY(0);
+        }
+    }
+    
+    &-secondary {
+        background-color: $color-indigo;
+        color: white;
+        border: none;
+        padding: 0.75rem 1.5rem;
+        border-radius: 4px;
+        transition: all 0.3s ease;
+        
+        &:hover {
+            background-color: lighten-color($color-indigo, 10%);
+            transform: translateY(-2px);
+            box-shadow: 0 4px 8px rgba($color-indigo, 0.2);
+        }
+        
+        &:active {
+            background-color: darken-color($color-indigo, 5%);
+            transform: translateY(0);
+        }
+    }
+}
+
+// Example header styles
+.header-brand {
+    background: linear-gradient(135deg, $color-sky-blue, $color-royal);
+    color: white;
+    padding: 1rem 2rem;
+    box-shadow: 0 2px 4px rgba($color-indigo, 0.1);
+    
+    &__title {
+        font-size: 2rem;
+        font-weight: bold;
+        margin: 0;
+        
+        &:hover {
+            color: $color-light-cyan;
+            transition: color 0.3s ease;
+        }
+    }
+    
+    &__nav {
+        a {
+            color: white;
+            text-decoration: none;
+            margin: 0 1rem;
+            padding: 0.5rem;
+            border-radius: 4px;
+            transition: all 0.3s ease;
+            
+            &:hover {
+                background-color: rgba(white, 0.1);
+                color: $color-light-cyan;
+            }
+            
+            &.active {
+                background-color: rgba(white, 0.2);
+                color: $color-light-cyan;
+            }
+        }
+    }
+} 
