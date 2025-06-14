@@ -2,7 +2,7 @@ import { defineConfig } from 'vite'
 import react from '@vitejs/plugin-react'
 
 export default defineConfig({
-  base: '/', // ✅ important for tryunitysolutions.github.io repo
+  base: '/', // correct for Vercel and most static hosts
   plugins: [react()],
   build: {
     rollupOptions: {
