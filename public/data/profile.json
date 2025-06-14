@@ -1,8 +1,8 @@
 {
     "name": "Try Unity Solutions",
 
-    "profilePictureUrlLight": "images/pictures/profile-picture.jpg",
-    "profilePictureUrlDark": "images/pictures/white-profile-picture.jpg",
+    "profilePictureUrlLight": "./images/pictures/profile-picture.jpg",
+    "profilePictureUrlDark": "./images/pictures/white-profile-picture.jpg",
     "resumePdfUrl": "",
 
     "statusCircleVisible": true,

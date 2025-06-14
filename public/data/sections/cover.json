@@ -62,7 +62,7 @@
             "items": [
                 {
                     "id": 1,
-                    "img": "images/pictures/about-texts-image-1.png",
+                    "img": "./images/pictures/about-texts-image-1.png",
                     "faIcon": "",
                     "faIconColors": {"bg": "", "fill": ""},
                     "locales": {
@@ -93,7 +93,7 @@
                     "id": 1,
                     "label": "Zaffar Hussain Shakh",
                     "link": {"href": "https://linkedin.com", "tooltipString": "open_website"},
-                    "img": "images/pictures/testimonial-person-male-2.png",
+                    "img": "./images/pictures/testimonial-person-male-2.png",
                     "faIcon": "",
                     "faIconColors": {"bg": "", "fill": ""},
                     "locales": {

@@ -4,10 +4,10 @@
 
 The page title, favicon, and meta tags can be customized directly in the `index.html` file. You may want to personalize these to better reflect your portfolio.
 
-Here’s an example:
+Here's an example:
 
 ```html
-<link rel="icon" type="image/svg+xml" href="/images/svg/logo.svg" />
+<link rel="icon" type="image/svg+xml" href="./images/svg/logo.svg" />
 <title>John Doe's Portfolio</title>
 
 <meta name="description" content="Get to know more about John Doe."/>
@@ -29,7 +29,7 @@ For a smoother visual transition, you can also match the splash screen backgroun
 ```html
 <body style="background-color: #1b2226">
     <div id="root"></div>
-    <script type="module" src="/src/main.jsx"></script>
+    <script type="module" src="./src/main.jsx"></script>
 </body>
 ```
 
@@ -81,7 +81,7 @@ $scrollbar-track: #daeef5;
 $scrollbar-thumb: #5591bd;
 ```
 
-And that’s it! Your theme will now have a clean, blue-toned look instead of the default green.
+And that's it! Your theme will now have a clean, blue-toned look instead of the default green.
 
 ## Adding more themes
 
@@ -93,7 +93,7 @@ If you want your app to support a **third theme** (or more), follow these steps:
    Name it `_variables-theme-{id}.scss` and place it inside the `src/styles/themes` folder.  
    (Replace `{id}` with the ID of your new theme.)
 
-3. **Define the theme’s color schema** in the new SCSS file, and wrap the `@include build-theme` call with the `[data-theme="{id}"]` attribute. You can refer to the light theme file for a working example.
+3. **Define the theme's color schema** in the new SCSS file, and wrap the `@include build-theme` call with the `[data-theme="{id}"]` attribute. You can refer to the light theme file for a working example.
 
 4. **Import the new theme SCSS file** inside `_constants.scss` so it gets compiled.
 

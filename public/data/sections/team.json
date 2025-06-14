@@ -40,7 +40,7 @@
                         "github": "https://github.com/ihsanalichandio",
                         "linkedin": "https://linkedin.com/in/ihsanalichandio"
                     },
-                    "image": "images/pictures/team-2.jpg"
+                    "image": "./images/pictures/team-2.jpg"
                 },
                 {
                     "id": 2,
@@ -54,7 +54,7 @@
                         "github": "https://github.com/alirazaabbasi",
                         "linkedin": "https://linkedin.com/in/alirazaabbasi"
                     },
-                    "image": "images/pictures/team-1.jpg"
+                    "image": "./images/pictures/team-1.jpg"
                 },
                 {
                     "id": 3,
@@ -68,7 +68,7 @@
                         "linkedin": "https://linkedin.com/in/razahussainbhayo",
                         "instagram": "https://instagram.com/razahussainbhayo"
                     },
-                    "image": "images/pictures/team-3.jpg"
+                    "image": "./images/pictures/team-3.jpg"
                 }
             ]
         }
