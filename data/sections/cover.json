@@ -1,0 +1,113 @@
+{
+    "title": {
+        "locales": {
+            "en": {
+                "title_short": "Welcome!",
+                "title_short_nav": "About Us",
+                "title_long_prefix": "Welcome to",
+                "title_long": "[[Try {{Unity}} Solutions]]"
+            },
+            "ur": {
+                "title_short": "خوش آمدید!",
+                "title_short_nav": "ہمارے بارے میں",
+                "title_long_prefix": "خوش آمدید",
+                "title_long": "[[ٹرائی {{یونٹی}} سولوشنز]]"
+            }
+        }
+    },
+
+    "articles": [
+        {
+            "id": 1,
+            "component": "ArticleInlineList",
+            "locales": {},
+            "settings": {
+                "order_items_by": "id",
+                "order_items_sort": "asc",
+                "display_as_list_if_width_is_lower_than": 380
+            },
+            "items": [
+                {
+                    "id": 1,
+                    "label": "Larkana, Sindh, Pakistan",
+                    "link": {"href": "", "tooltipString": ""},
+                    "faIcon": "fa-regular fa-address-book"
+                },
+                {
+                    "id": 2,
+                    "label": "info@tryunitysolutions.com",
+                    "link": {"href": "mailto:info@tryunitysolutions.com", "tooltipString": "email_us"},
+                    "faIcon": "fa-regular fa-envelope"
+                },
+                {
+                    "id": 3,
+                    "label": "+92 123 4567890",
+                    "link": {"href": "tel:+921234567890", "tooltipString": "call_us"},
+                    "faIcon": "fa-solid fa-phone"
+                }
+            ]
+        },
+
+        {
+            "id": 2,
+            "component": "ArticleText",
+            "locales": {
+                "en": {"title": "{{About}} Try Unity Solutions"},
+                "ur": {"title": "{{ہمارے بارے میں}} ٹرائی یونٹی سولوشنز"}
+            },
+            "settings": {
+                "order_items_by": "id",
+                "order_items_sort": "asc"
+            },
+            "items": [
+                {
+                    "id": 1,
+                    "img": "images/pictures/about-texts-image-1.png",
+                    "faIcon": "",
+                    "faIconColors": {"bg": "", "fill": ""},
+                    "locales": {
+                        "en": {
+                            "text": "<p>Try Unity Solutions is a [[premier technology solutions provider]] specializing in comprehensive digital services. With a focus on innovation and client success, we deliver cutting-edge solutions in website design, development, and application creation.</p><p>Our team of skilled professionals combines technical expertise with creative excellence to transform your digital vision into reality. We pride ourselves on creating modern, user-friendly solutions that drive business growth and enhance user experience.</p><p>Whether you need a stunning website, a powerful mobile app, or a robust desktop application, we're here to bring your ideas to life with [[precision and professionalism]].</p>"
+                        },
+                        "ur": {
+                            "text": "<p>ٹرائی یونٹی سولوشنز ایک [[اعلیٰ درجے کی ٹیکنالوجی سولوشنز فراہم کنندہ]] ہے جو جامع ڈیجیٹل خدمات میں مہارت رکھتا ہے۔ جدت اور کلائنٹ کی کامیابی پر توجہ مرکوز کرتے ہوئے، ہم ویب سائٹ ڈیزائن، ڈویلپمنٹ، اور ایپلیکیشن تخلیق میں جدید ترین حل فراہم کرتے ہیں۔</p><p>ہماری ماہر پیشہ ور ٹیم تکنیکی مہارت کو تخلیقی برتری کے ساتھ جوڑ کر آپ کی ڈیجیٹل وژن کو حقیقت میں بدل دیتی ہے۔ ہمیں جدید، صارف دوست حل بنانے پر فخر ہے جو کاروباری ترقی کو فروغ دیتے ہیں اور صارف کے تجربے کو بہتر بناتے ہیں۔</p><p>چاہے آپ کو ایک شاندار ویب سائٹ، ایک طاقتور موبائل ایپ، یا ایک مضبوط ڈیسک ٹاپ ایپلیکیشن کی ضرورت ہو، ہم آپ کے خیالات کو [[درستگی اور پیشہ ورانہ مہارت]] کے ساتھ زندگی میں لانے کے لیے موجود ہیں۔</p>"
+                        }
+                    }
+                }
+            ]
+        },
+
+        {
+            "id": 3,
+            "component": "ArticleTestimonials",
+            "locales": {
+                "en": {"title": "Client {{testimonials}}"},
+                "ur": {"title": "کلائنٹ {{توصیفیں}}"}
+            },
+            "settings": {
+                "order_items_by": "id",
+                "order_items_sort": "asc"
+            },
+            "items": [
+                {
+                    "id": 1,
+                    "label": "Zaffar Hussain Shakh",
+                    "link": {"href": "https://linkedin.com", "tooltipString": "open_website"},
+                    "img": "images/pictures/testimonial-person-male-2.png",
+                    "faIcon": "",
+                    "faIconColors": {"bg": "", "fill": ""},
+                    "locales": {
+                        "en": {
+                            "title": "Manager of BSO School Larkana",
+                            "text": "I entrusted Try Unity Solutions with developing a Student Fees Management System and a website for our school. Their team delivered a robust software solution using PHP and MySQL, streamlining our fee processes and enhancing our online presence. I am highly satisfied with their professionalism and technical expertise."
+                        },
+                        "ur": {
+                            "title": "بی ایس او اسکول لاڑکانہ کے منیجر",
+                            "text": "میں نے ٹرائی یونٹی سولوشنز کو ہمارے اسکول کے لیے اسٹوڈنٹ فیس مینجمنٹ سسٹم اور ویب سائٹ بنانے کا پروجیکٹ دیا۔ ان کی ٹیم نے PHP اور MySQL کا استعمال کرتے ہوئے ایک مضبوط سافٹ ویئر حل فراہم کیا، جس سے ہماری فیس کے عمل کو آسان بنایا گیا اور ہماری آن لائن موجودگی کو بہتر بنایا گیا۔ میں ان کی پیشہ ورانہ مہارت اور تکنیکی قابلیت سے بہت مطمئن ہوں۔"
+                        }
+                    }
+                }
+            ]
+        }
+    ]
+}

@@ -1,0 +1,74 @@
+{
+    "sections": [
+        {
+            "id": "welcome",
+            "categoryId": "home",
+            "jsonPath": "/data/sections/cover.json",
+            "faIcon": "fa-solid fa-house",
+            "data": {
+                "title": {
+                    "locales": {
+                        "en": { "title_short_nav": "Home" },
+                        "ur": { "title_short_nav": "ہوم" }
+                    }
+                }
+            }
+        },
+        {
+            "id": "team",
+            "categoryId": "home",
+            "jsonPath": "/data/sections/team.json",
+            "faIcon": "fa-solid fa-users",
+            "data": {
+                "title": {
+                    "locales": {
+                        "en": { "title_short_nav": "Our Team" },
+                        "ur": { "title_short_nav": "ہماری ٹیم" }
+                    }
+                }
+            }
+        },
+        {
+            "id": "services",
+            "categoryId": "services",
+            "jsonPath": "/data/sections/skills.json",
+            "faIcon": "fa-solid fa-gears",
+            "data": {
+                "title": {
+                    "locales": {
+                        "en": { "title_short_nav": "Services" },
+                        "ur": { "title_short_nav": "خدمات" }
+                    }
+                }
+            }
+        },
+        {
+            "id": "portfolio",
+            "categoryId": "showcase",
+            "jsonPath": "/data/sections/portfolio.json",
+            "faIcon": "fa-solid fa-folder-open",
+            "data": {
+                "title": {
+                    "locales": {
+                        "en": { "title_short_nav": "Portfolio" },
+                        "ur": { "title_short_nav": "پورٹ فولیو" }
+                    }
+                }
+            }
+        },
+        {
+            "id": "contact",
+            "categoryId": "contact",
+            "jsonPath": "/data/sections/contact.json",
+            "faIcon": "fa-solid fa-envelope",
+            "data": {
+                "title": {
+                    "locales": {
+                        "en": { "title_short_nav": "Contact" },
+                        "ur": { "title_short_nav": "رابطہ" }
+                    }
+                }
+            }
+        }
+    ]
+}

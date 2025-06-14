@@ -1,0 +1,225 @@
+{
+    "title": {
+        "locales": {
+            "en": {
+                "title_short": "Life recently",
+                "title_short_nav": "Updates",
+                "title_long_prefix": "Take a look at my",
+                "title_long": "Recent {{Updates}}"
+            },
+            "ur": {
+                "title_short": "حال ہی کی زندگی",
+                "title_short_nav": "اپڈیٹس",
+                "title_long_prefix": "میری",
+                "title_long": "حالیہ {{اپڈیٹس}} دیکھیں"
+            }
+        }
+    },
+
+    "articles": [
+        {
+            "id": 1,
+            "component": "ArticleFacts",
+            "locales": {},
+            "settings": {
+                "order_items_by": "id",
+                "order_items_sort": "asc"
+            },
+            "items": [
+                {
+                    "id": 1,
+                    "img": null,
+                    "faIcon": "fa-solid fa-tablet-screen-button",
+                    "faIconColors": {"bg": "", "fill": ""},
+                    "locales": {
+                        "en": {
+                            "title": "03",
+                            "text": "Apps Published"
+                        },
+                        "ur": {
+                            "title": "03",
+                            "text": "شائع شدہ ایپس"
+                        }
+                    }
+                },
+                {
+                    "id": 2,
+                    "img": null,
+                    "faIcon": "fa-solid fa-star",
+                    "faIconColors": {"bg": "", "fill": ""},
+                    "locales": {
+                        "en": {
+                            "title": "100+",
+                            "text": "Stars on GitHub"
+                        },
+                        "ur": {
+                            "title": "100+",
+                            "text": "گٹ ہب پر ستارے"
+                        }
+                    }
+                },
+                {
+                    "id": 3,
+                    "img": null,
+                    "faIcon": "fa-solid fa-globe",
+                    "faIconColors": {"bg": "", "fill": ""},
+                    "locales": {
+                        "en": {
+                            "title": "12",
+                            "text": "Countries visited"
+                        },
+                        "ur": {
+                            "title": "12",
+                            "text": "ملک دیکھے گئے"
+                        }
+                    }
+                },
+                {
+                    "id": 4,
+                    "img": null,
+                    "faIcon": "fa-solid fa-diagram-project",
+                    "faIconColors": {"bg": "", "fill": ""},
+                    "locales": {
+                        "en": {
+                            "title": "07",
+                            "text": "Open-source projects"
+                        },
+                        "ur": {
+                            "title": "07",
+                            "text": "اوپن سورس پروجیکٹس"
+                        }
+                    }
+                },
+                {
+                    "id": 5,
+                    "img": null,
+                    "faIcon": "fa-solid fa-coffee",
+                    "faIconColors": {"bg": "", "fill": ""},
+                    "locales": {
+                        "en": {
+                            "title": "20,000",
+                            "text": "Coffees consumed"
+                        },
+                        "ur": {
+                            "title": "20,000",
+                            "text": "کافی پی گئی"
+                        }
+                    }
+                },
+                {
+                    "id": 6,
+                    "img": null,
+                    "faIcon": "fa-solid fa-laptop-code",
+                    "faIconColors": {"bg": "", "fill": ""},
+                    "locales": {
+                        "en": {
+                            "title": "1,000,000+",
+                            "text": "Lines of code"
+                        },
+                        "ur": {
+                            "title": "1,000,000+",
+                            "text": "کوڈ کی لائنیں"
+                        }
+                    }
+                },
+                {
+                    "id": 7,
+                    "img": null,
+                    "faIcon": "fa-solid fa-heart",
+                    "faIconColors": {"bg": "", "fill": ""},
+                    "locales": {
+                        "en": {
+                            "title": "Infinite",
+                            "text": "Passion for learning"
+                        },
+                        "ur": {
+                            "title": "لامحدود",
+                            "text": "سیکھنے کا جنون"
+                        }
+                    }
+                }
+            ]
+        },
+
+        {
+            "id": 2,
+            "component": "ArticleThread",
+            "locales": {
+                "en": { "title": "Quick {{Facts}}" },
+                "ur": { "title": "فوری {{حقائق}}" }
+            },
+            "settings": {
+                "order_items_by": "date",
+                "order_items_sort": "desc"
+            },
+            "items": [
+                {
+                    "id": 1,
+                    "date": {"year": 2024, "month": 1},
+                    "preview": {
+                        "links": [
+                            {"href": "https://github.com", "tooltipString": "see_on_github", "faIcon": "fa-brands fa-github"}
+                        ],
+                        "screenshots": [],
+                        "screenshotsAspectRatio": "",
+                        "youtubeVideo": ""
+                    },
+                    "locales": {
+                        "en": {
+                            "title": "New {{Open Source}} Project",
+                            "text": "Launched a new open source project focused on improving developer productivity through automated testing and continuous integration."
+                        },
+                        "ur": {
+                            "title": "نیا {{اوپن سورس}} پروجیکٹ",
+                            "text": "خودکار ٹیسٹنگ اور مسلسل انضمام کے ذریعے ڈویلپر کی پیداواری صلاحیت کو بہتر بنانے پر مرکوز ایک نیا اوپن سورس پروجیکٹ شروع کیا۔"
+                        }
+                    }
+                },
+                {
+                    "id": 2,
+                    "date": {"year": 2023, "month": 12},
+                    "preview": {
+                        "links": [
+                            {"href": "https://medium.com", "tooltipString": "read", "faIcon": "fa-brands fa-medium"}
+                        ],
+                        "screenshots": [],
+                        "screenshotsAspectRatio": "",
+                        "youtubeVideo": ""
+                    },
+                    "locales": {
+                        "en": {
+                            "title": "Published {{Technical Article}}",
+                            "text": "Wrote and published a technical article about implementing microservices architecture in modern web applications."
+                        },
+                        "ur": {
+                            "title": "{{تکنیکی مضمون}} شائع کیا",
+                            "text": "جدید ویب ایپلیکیشنز میں مائیکرو سروسز آرکیٹیکچر کو نافذ کرنے کے بارے میں ایک تکنیکی مضمون لکھا اور شائع کیا۔"
+                        }
+                    }
+                },
+                {
+                    "id": 3,
+                    "date": {"year": 2023, "month": 11},
+                    "preview": {
+                        "links": [
+                            {"href": "https://youtube.com", "tooltipString": "watch", "faIcon": "fa-brands fa-youtube"}
+                        ],
+                        "screenshots": [],
+                        "screenshotsAspectRatio": "",
+                        "youtubeVideo": ""
+                    },
+                    "locales": {
+                        "en": {
+                            "title": "Tech {{Conference}} Speaker",
+                            "text": "Invited to speak at a major tech conference about the future of web development and emerging technologies."
+                        },
+                        "ur": {
+                            "title": "ٹیک {{کانفرنس}} اسپیکر",
+                            "text": "ویب ڈویلپمنٹ اور ابھرتی ہوئی ٹیکنالوجیز کے مستقبل کے بارے میں ایک بڑی ٹیک کانفرنس میں بات کرنے کے لیے مدعو کیا گیا۔"
+                        }
+                    }
+                }
+            ]
+        }
+    ]
+}

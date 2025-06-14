@@ -1,0 +1,117 @@
+{
+    "title": {
+        "locales": {
+            "en": {
+                "title_short": "Contact",
+                "title_short_nav": "Contact",
+                "title_long_prefix": "Get in",
+                "title_long": "[[{{Touch}}]]"
+            },
+            "ur": {
+                "title_short": "رابطہ",
+                "title_short_nav": "رابطہ",
+                "title_long_prefix": "ہم سے",
+                "title_long": "[[{{رابطہ کریں}}]]"
+            }
+        }
+    },
+
+    "articles": [
+        {
+            "id": 1,
+            "component": "ArticleContactForm",
+            "locales": {
+                "en": {
+                    "title": "Let's Connect",
+                    "text": "Ready to transform your digital presence? We're here to help you achieve your goals. Send us a message and let's discuss how we can assist with your next project."
+                },
+                "ur": {
+                    "title": "آئیے جڑیں",
+                    "text": "اپنی ڈیجیٹل موجودگی کو تبدیل کرنے کے لیے تیار ہیں؟ ہم آپ کی اہداف حاصل کرنے میں مدد کرنے کے لیے موجود ہیں۔ ہمیں پیغام بھیجیں اور آئیے بات کریں کہ ہم آپ کے اگلے پروجیکٹ میں کیسے مدد کر سکتے ہیں۔"
+                }
+            },
+            "settings": {
+                "order_items_by": "id",
+                "order_items_sort": "asc"
+            },
+            "items": [
+                {
+                    "id": 1,
+                    "faIcon": "fa-solid fa-envelope",
+                    "faIconColors": {
+                        "bg": "bg-blue-500",
+                        "fill": "fill-blue-500"
+                    },
+                    "locales": {
+                        "en": {
+                            "title": "Email",
+                            "text": "info@tryunitysolutions.com"
+                        },
+                        "ur": {
+                            "title": "ای میل",
+                            "text": "info@tryunitysolutions.com"
+                        }
+                    }
+                },
+                {
+                    "id": 2,
+                    "faIcon": "fa-solid fa-phone",
+                    "faIconColors": {
+                        "bg": "bg-green-500",
+                        "fill": "fill-green-500"
+                    },
+                    "locales": {
+                        "en": {
+                            "title": "Phone",
+                            "text": "+92 300 1234567"
+                        },
+                        "ur": {
+                            "title": "فون",
+                            "text": "+92 300 1234567"
+                        }
+                    }
+                },
+                {
+                    "id": 3,
+                    "faIcon": "fa-solid fa-location-dot",
+                    "faIconColors": {
+                        "bg": "bg-red-500",
+                        "fill": "fill-red-500"
+                    },
+                    "locales": {
+                        "en": {
+                            "title": "Location",
+                            "text": "Karachi, Pakistan"
+                        },
+                        "ur": {
+                            "title": "مقام",
+                            "text": "کراچی، پاکستان"
+                        }
+                    }
+                }
+            ],
+            "form": {
+                "locales": {
+                    "en": {
+                        "title": "Send us a {{message}}",
+                        "name_label": "Name",
+                        "email_label": "Email",
+                        "message_label": "Message",
+                        "submit_button": "Send Message",
+                        "success_message": "Thank you for your message! We'll get back to you soon.",
+                        "error_message": "Oops! Something went wrong. Please try again."
+                    },
+                    "ur": {
+                        "title": "ہمیں {{پیغام}} بھیجیں",
+                        "name_label": "نام",
+                        "email_label": "ای میل",
+                        "message_label": "پیغام",
+                        "submit_button": "پیغام بھیجیں",
+                        "success_message": "آپ کے پیغام کے لیے شکریہ! ہم جلد ہی آپ سے رابطہ کریں گے۔",
+                        "error_message": "اوہ! کچھ غلط ہو گیا۔ براہ کرم دوبارہ کوشش کریں۔"
+                    }
+                }
+            }
+        }
+    ]
+}

@@ -1,0 +1,485 @@
+{
+    "title": {
+        "locales": {
+            "en": {
+                "title_short": "Services",
+                "title_short_nav": "Services",
+                "title_long_prefix": "Our",
+                "title_long": "[[{{Services}}]]"
+            },
+            "ur": {
+                "title_short": "خدمات",
+                "title_short_nav": "خدمات",
+                "title_long_prefix": "ہماری",
+                "title_long": "[[{{خدمات}}]]"
+            }
+        }
+    },
+
+    "articles": [
+        {
+            "id": 2,
+            "component": "ArticleSkills",
+            "locales": {
+                "en": {"title": "Technical {{Skills}}"},
+                "ur": {"title": "تکنیکی {{مہارتیں}}"}
+            },
+            "settings": {
+                "max_items_per_row": 3,
+                "max_rows_collapse_threshold": 6,
+                "order_items_by": "percentage",
+                "order_items_sort": "desc",
+                "round_icons": false
+            },
+            "items": [
+                {
+                    "id": 1,
+                    "img": "",
+                    "faIcon": "fa-brands fa-react",
+                    "faIconColors": {"bg": "", "fill": "#61DAFB"},
+                    "date": {"year": 2020, "month": 6},
+                    "percentage": 95,
+                    "locales": {
+                        "en": {
+                            "title": "ReactJS",
+                            "text": "Expert in building modern, responsive web applications with React.",
+                            "level": "Expert"
+                        }
+                    }
+                },
+                {
+                    "id": 2,
+                    "img": "",
+                    "faIcon": "fa-brands fa-node-js",
+                    "faIconColors": {"bg": "", "fill": "#339933"},
+                    "date": {"year": 2019, "month": 3},
+                    "percentage": 90,
+                    "locales": {
+                        "en": {
+                            "title": "Node.js",
+                            "text": "Proficient in building scalable backend services with Node.js and Express.",
+                            "level": "Advanced"
+                        }
+                    }
+                },
+                {
+                    "id": 3,
+                    "img": "",
+                    "faIcon": "fa-brands fa-php",
+                    "faIconColors": {"bg": "", "fill": "#777BB4"},
+                    "date": {"year": 2018, "month": 9},
+                    "percentage": 85,
+                    "locales": {
+                        "en": {
+                            "title": "PHP & Laravel",
+                            "text": "Experienced in developing robust web applications with PHP and Laravel framework.",
+                            "level": "Advanced"
+                        }
+                    }
+                },
+                {
+                    "id": 4,
+                    "img": "",
+                    "faIcon": "fa-brands fa-java",
+                    "faIconColors": {"bg": "", "fill": "#007396"},
+                    "date": {"year": 2019, "month": 10},
+                    "percentage": 80,
+                    "locales": {
+                        "en": {
+                            "title": "Java",
+                            "text": "Skilled in Java development for desktop and enterprise applications.",
+                            "level": "Intermediate"
+                        }
+                    }
+                },
+                {
+                    "id": 5,
+                    "img": "",
+                    "faIcon": "fa-brands fa-microsoft",
+                    "faIconColors": {"bg": "", "fill": "#00A4EF"},
+                    "date": {"year": 2020, "month": 4},
+                    "percentage": 75,
+                    "locales": {
+                        "en": {
+                            "title": "C#",
+                            "text": "Proficient in C# for Windows desktop application development.",
+                            "level": "Intermediate"
+                        }
+                    }
+                },
+                {
+                    "id": 6,
+                    "img": "",
+                    "faIcon": "fa-brands fa-flutter",
+                    "faIconColors": {"bg": "", "fill": "#02569B"},
+                    "date": {"year": 2021, "month": 3},
+                    "percentage": 85,
+                    "locales": {
+                        "en": {
+                            "title": "Flutter & Dart",
+                            "text": "Expert in cross-platform mobile app development with Flutter and Dart.",
+                            "level": "Advanced"
+                        }
+                    }
+                },
+                {
+                    "id": 7,
+                    "img": "",
+                    "faIcon": "fa-solid fa-database",
+                    "faIconColors": {"bg": "", "fill": "#4479A1"},
+                    "date": {"year": 2020, "month": 10},
+                    "percentage": 90,
+                    "locales": {
+                        "en": {
+                            "title": "Databases",
+                            "text": "Proficient in MySQL, MongoDB, SQLite, and Firebase databases.",
+                            "level": "Advanced"
+                        }
+                    }
+                },
+                {
+                    "id": 8,
+                    "img": "",
+                    "faIcon": "fa-brands fa-git-alt",
+                    "faIconColors": {"bg": "", "fill": "#F05032"},
+                    "date": {"year": 2018, "month": 1},
+                    "percentage": 95,
+                    "locales": {
+                        "en": {
+                            "title": "Git & GitHub",
+                            "text": "Expert in version control and collaboration using Git and GitHub.",
+                            "level": "Expert"
+                        }
+                    }
+                }
+            ]
+        },
+        {
+            "id": 3,
+            "component": "ArticleSkills",
+            "locales": {
+                "en": {"title": "Backend Stack"},
+                "ur": {"title": "بیک انڈ اسٹیک کی مہارتیں"}
+            },
+            "settings": {
+                "max_items_per_row": 3,
+                "max_rows_collapse_threshold": 6,
+                "order_items_by": "percentage",
+                "order_items_sort": "desc",
+                "round_icons": false
+            },
+            "items": [
+                {
+                    "id": 1,
+                    "img": "",
+                    "faIcon": "fa-brands fa-node-js",
+                    "faIconColors": {"bg": "", "fill": "#339933"},
+                    "date": {"year": 2019, "month": 3},
+                    "percentage": 95,
+                    "locales": {
+                        "en": {
+                            "title": "Node.js",
+                            "text": "Certified developer by Node.js Foundation.",
+                            "level": ""
+                        },
+                        "ur": {
+                            "text": "Node.js فنڈیشن کی مہارتیں"
+                        }
+                       
+                    }
+                },
+                {
+                    "id": 2,
+                    "img": "",
+                    "faIcon": "fa-brands fa-java",
+                    "faIconColors": {"bg": "", "fill": "#0295c2", "fillLight": "#007396"},
+                    "date": {"year": 2019, "month": 10},
+                    "percentage": 95,
+                    "locales": {
+                        "en": {
+                            "title": "Java",
+                            "text": "Oracle certified Java developer with a strong understanding of its ecosystem.",
+                            "level": ""
+                        }
+                    }
+                },
+                {
+                    "id": 3,
+                    "img": "",
+                    "faIcon": "fa-solid fa-gem",
+                    "faIconColors": {"bg": "", "fill": "#CC0000"},
+                    "date": {"year": 2020, "month": 8},
+                    "percentage": 80,
+                    "locales": {
+                        "en": {
+                            "title": "Ruby on Rails",
+                            "text": "Complete understanding of Ruby on Rails for building web applications.",
+                            "level": ""
+                        }
+                    }
+                },
+                {
+                    "id": 4,
+                    "img": "",
+                    "faIcon": "fa-solid fa-database",
+                    "faIconColors": {"bg": "", "fill": "#4479A1"},
+                    "date": {"year": 2020, "month": 10},
+                    "percentage": 90,
+                    "locales": {
+                        "en": {
+                            "title": "MySQL",
+                            "text": "I can manage and optimize MySQL databases for performance and reliability.",
+                            "level": ""
+                        }
+                    }
+                },
+                {
+                    "id": 5,
+                    "img": "",
+                    "faIcon": "fa-brands fa-docker",
+                    "faIconColors": {"bg": "", "fill": "#2496ED"},
+                    "date": {"year": 2021, "month": 4},
+                    "percentage": 60,
+                    "locales": {
+                        "en": {
+                            "title": "Docker",
+                            "text": "Working knowledge of Docker for containerization.",
+                            "level": ""
+                        }
+                    }
+                },
+                {
+                    "id": 6,
+                    "img": "",
+                    "faIcon": "fa-brands fa-php",
+                    "faIconColors": {"bg": "", "fill": "#FFD700", "fillLight": "#4F5B93"},
+                    "date": {"year": 2018, "month": 9},
+                    "percentage": 100,
+                    "locales": {
+                        "en": {
+                            "title": "PHP 8.0+",
+                            "text": "Strong understanding of PHP and its frameworks.",
+                            "level": ""
+                        }
+                    }
+                },
+                {
+                    "id": 7,
+                    "img": "",
+                    "faIcon": "fa-brands fa-python",
+                    "faIconColors": {"bg": "", "fill": "#306998"},
+                    "date": {"year": 2020, "month": 6},
+                    "percentage": 85,
+                    "locales": {
+                        "en": {
+                            "title": "Python",
+                            "text": "Data analysis and machine learning with Python.",
+                            "level": ""
+                        }
+                    }
+                },
+                {
+                    "id": 8,
+                    "img": "",
+                    "faIcon": "fa-solid fa-life-ring",
+                    "faIconColors": {"bg": "", "fill": "#326CE5"},
+                    "date": {"year": 2021, "month": 7},
+                    "percentage": 80,
+                    "locales": {
+                        "en": {
+                            "title": "Kubernetes",
+                            "text": "Total devotee of Kubernetes for container orchestration and management.",
+                            "level": ""
+                        }
+                    }
+                },
+                {
+                    "id": 9,
+                    "img": "",
+                    "faIcon": "fa-solid fa-server",
+                    "faIconColors": {"bg": "", "fill": "#47A248"},
+                    "date": {"year": 2024, "month": 5},
+                    "percentage": 50,
+                    "locales": {
+                        "en": {
+                            "title": "MongoDB",
+                            "text": "",
+                            "level": ""
+                        }
+                    }
+                },
+                {
+                    "id": 10,
+                    "img": "",
+                    "faIcon": "fa-brands fa-git",
+                    "faIconColors": {"bg": "", "fill": "#F05032"},
+                    "date": {"year": 2018, "month": 1},
+                    "percentage": 90,
+                    "locales": {
+                        "en": {
+                            "title": "Git",
+                            "text": "Complete understanding of Git for version control and collaboration.",
+                            "level": ""
+                        }
+                    }
+                }
+            ]
+        },
+
+        {
+            "id": 4,
+            "component": "ArticleSkills",
+            "locales": {
+                "en": {"title": "Frontend Stack"},
+                "ur": {"title": "فرانٹ انڈ اسٹیک کی مہارتیں"}
+            },
+            "settings": {
+                "max_items_per_row": 3,
+                "max_rows_collapse_threshold": 6,
+                "order_items_by": "percentage",
+                "order_items_sort": "desc",
+                "round_icons": false
+            },
+            "items": [
+                {
+                    "id": 1,
+                    "img": "",
+                    "faIcon": "fa-brands fa-html5",
+                    "faIconColors": {"bg": "", "fill": "#E34F26"},
+                    "date": {"year": 2018, "month": 9},
+                    "percentage": 100,
+                    "locales": {
+                        "en": {
+                            "title": "HTML 5",
+                            "text": "I am proficient in HTML5 for building structured web pages.",
+                            "level": ""
+                        }
+                    }
+                },
+                {
+                    "id": 2,
+                    "img": "",
+                    "faIcon": "fa-brands fa-css3-alt",
+                    "faIconColors": {"bg": "", "fill": "#1572B6"},
+                    "date": {"year": 2019, "month": 1},
+                    "percentage": 65,
+                    "locales": {
+                        "en": {
+                            "title": "CSS 3",
+                            "text": "I can create responsive and visually appealing designs using CSS3.",
+                            "level": ""
+                        }
+                    }
+                },
+                {
+                    "id": 3,
+                    "img": "",
+                    "faIcon": "fa-brands fa-js",
+                    "faIconColors": {"bg": "", "fill": "#F7DF1E", "fillLight": "#a69617"},
+                    "date": {"year": 2020, "month": 3},
+                    "percentage": 90,
+                    "locales": {
+                        "en": {
+                            "title": "JavaScript ES6+",
+                            "text": "Mastered JavaScript ES6+ for dynamic and interactive web applications.",
+                            "level": ""
+                        }
+                    }
+                },
+                {
+                    "id": 4,
+                    "img": "",
+                    "faIcon": "fa-brands fa-react",
+                    "faIconColors": {"bg": "", "fill": "#61DAFB", "fillLight": "#317385"},
+                    "date": {"year": 2020, "month": 6},
+                    "percentage": 95,
+                    "locales": {
+                        "en": {
+                            "title": "React",
+                            "text": "Complete understanding of React for building modern web applications.",
+                            "level": ""
+                        }
+                    }
+                },
+                {
+                    "id": 5,
+                    "img": "",
+                    "faIcon": "fa-brands fa-vuejs",
+                    "faIconColors": {"bg": "", "fill": "#4FC08D", "fillLight": "#2b825b"},
+                    "date": {"year": 2023, "month": 8},
+                    "percentage": 40,
+                    "locales": {
+                        "en": {
+                            "title": "Vue.js",
+                            "text": "Good understanding of Vue.js for building interactive user interfaces.",
+                            "level": ""
+                        }
+                    }
+                },
+                {
+                    "id": 6,
+                    "img": "",
+                    "faIcon": "fa-brands fa-bootstrap",
+                    "faIconColors": {"bg": "", "fill": "#7952B3"},
+                    "date": {"year": 2021, "month": 2},
+                    "percentage": 90,
+                    "locales": {
+                        "en": {
+                            "title": "Bootstrap 5+",
+                            "text": "Good understanding of Bootstrap for responsive design.",
+                            "level": ""
+                        }
+                    }
+                }
+            ]
+        },
+
+        {
+            "id": 5,
+            "component": "ArticleSkills",
+            "locales": {
+                "en": {"title": "Languages"},
+                "ur": {"title": "زبانیں"}
+            },
+            "settings": {
+                "max_items_per_row": 1,
+                "max_rows_collapse_threshold": 4,
+                "order_items_by": "id",
+                "order_items_sort": "asc",
+                "round_icons": true
+            },
+            "items": [
+                {
+                    "id": 1,
+                    "img": "images/flags/en-us.png",
+                    "faIcon": "",
+                    "faIconColors": {"bg": "", "fill": ""},
+                    "date": {"year": null, "month": null},
+                    "percentage": null,
+                    "locales": {
+                        "en": {
+                            "title": "English",
+                            "text": "Professional proficiency with excellent communication and writing skills.",
+                            "level": "Professional"
+                        }
+                    }
+                },
+                {
+                    "id": 2,
+                    "img": "images/flags/pk.png",
+                    "faIcon": "",
+                    "faIconColors": {"bg": "", "fill": ""},
+                    "date": {"year": null, "month": null},
+                    "percentage": null,
+                    "locales": {
+                        "en": {
+                            "title": "Urdu",
+                            "text": "Native proficiency in both spoken and written Urdu.",
+                            "level": "Native"
+                        }
+                    }
+                }
+            ]
+        }
+    ]
+}

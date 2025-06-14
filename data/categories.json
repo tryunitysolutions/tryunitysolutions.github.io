@@ -1,0 +1,36 @@
+{
+    "categories": [
+        {
+            "id": "home",
+            "faIcon": "fa-regular fa-user",
+            "locales": {
+                "en": {"title": "Home"},
+                "ur": {"title": "ہوم"}
+            }
+        },
+        {
+            "id": "services",
+            "faIcon": "fa-regular fa-clock",
+            "locales": {
+                "en": {"title": "Services"},
+                "ur": {"title": "خدمات"}
+            }
+        },
+        {
+            "id": "showcase",
+            "faIcon": "fa-regular fa-folder-open",
+            "locales": {
+                "en": {"title": "Portfolio"},
+                "ur": {"title": "پورٹ فولیو"}
+            }
+        },
+        {
+            "id": "contact",
+            "faIcon": "fa-regular fa-object-ungroup",
+            "locales": {
+                "en": {"title": "Contact"},
+                "ur": {"title": "رابطہ"}
+            }
+        }
+    ]
+}

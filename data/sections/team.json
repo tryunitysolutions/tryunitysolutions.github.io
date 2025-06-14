@@ -1,0 +1,76 @@
+{
+    "title": {
+        "locales": {
+            "en": {
+                "title_short": "Our Team",
+                "title_short_nav": "Our Team",
+                "title_long_prefix": "Meet",
+                "title_long": "[[Our {{Team}}]]"
+            },
+            "ur": {
+                "title_short": "ہماری ٹیم",
+                "title_short_nav": "ہماری ٹیم",
+                "title_long_prefix": "ملاقات کریں",
+                "title_long": "[[ہماری {{ٹیم}}]]"
+            }
+        }
+    },
+    "articles": [
+        {
+            "id": 1,
+            "component": "ArticleOurTeam",
+            "settings": {
+                "order_items_by": "id",
+                "order_items_sort": "asc"
+            },
+            "locales": {
+                "en": {"title": "Our {{Team}}"},
+                "ur": {"title": "ہماری {{ٹیم}}"}
+            },
+            "items": [
+                {
+                    "id": 1,
+                    "name": "Ihsan Ali Chandio",
+                    "role": "Full Stack Developer",
+                    "bio": "Expert in Laravel, ReactJS, and MySQL with 4+ years of experience.",
+                    "fullBio": "A seasoned Full Stack Developer with over 4 years of experience in building robust web applications. Specializes in Laravel, ReactJS, and MySQL, delivering high-quality solutions for complex business problems.",
+                    "skills": ["PHP", "Laravel", "MySQL", "ReactJS", "Node.js", "REST API"],
+                    "social": {
+                        "facebook": "https://facebook.com/ihsanalichandio",
+                        "github": "https://github.com/ihsanalichandio",
+                        "linkedin": "https://linkedin.com/in/ihsanalichandio"
+                    },
+                    "image": "images/pictures/team-2.jpg"
+                },
+                {
+                    "id": 2,
+                    "name": "Ali Raza Abbasi",
+                    "role": "Cross Platform Developer",
+                    "bio": "Builds Android & iOS apps using Flutter & Dart.",
+                    "fullBio": "A skilled Cross Platform Developer specializing in Flutter and Dart. Creates high-performance mobile applications for both Android and iOS platforms, with expertise in Firebase integration and local storage solutions.",
+                    "skills": ["Flutter", "Dart", "Firebase", "SQLite"],
+                    "social": {
+                        "facebook": "https://facebook.com/alirazaabbasi",
+                        "github": "https://github.com/alirazaabbasi",
+                        "linkedin": "https://linkedin.com/in/alirazaabbasi"
+                    },
+                    "image": "images/pictures/team-1.jpg"
+                },
+                {
+                    "id": 3,
+                    "name": "Raza Hussain Bhayo",
+                    "role": "Digital Marketing Expert",
+                    "bio": "Google Ads & social media expert with proven campaigns.",
+                    "fullBio": "A results-driven Digital Marketing Expert with extensive experience in Google Ads and social media marketing. Specializes in creating and managing successful campaigns that drive business growth and ROI.",
+                    "skills": ["SEO", "SEM", "Google Ads", "Facebook Marketing", "Analytics"],
+                    "social": {
+                        "facebook": "https://facebook.com/razahussainbhayo",
+                        "linkedin": "https://linkedin.com/in/razahussainbhayo",
+                        "instagram": "https://instagram.com/razahussainbhayo"
+                    },
+                    "image": "images/pictures/team-3.jpg"
+                }
+            ]
+        }
+    ]
+} 
